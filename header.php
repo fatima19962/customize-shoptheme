@@ -113,15 +113,16 @@
 											</form>
 										</div>
 									</div>
-									<nav class="menu_main_nav_area menu_hover_fade">
-                                         <?php
-										 wp_nav_menu(
-											 array(
-											 'theme_location' ='primary',
-											 'container' =>''
-											 ) 
-										);
-										 ?>
+									<nav class="menu_main_nav">
+									<?php
+                                         wp_nav_menu(
+                                             array(
+                                             'theme_location' =>'primary',
+                                             'container' =>''
+                                             ) 
+                                        );
+                                         ?>
+
 									</nav>
 								</div>
 							</div>
